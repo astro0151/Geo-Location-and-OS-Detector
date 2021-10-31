@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finding Geo Location</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="sysInfo">
+      <div class="osInfo">
+        <div class="os">
+          <h2>Operating System:</h2>
+          <div id="osOutput"></div>
+        </div>
+        <button id="getOsInfo">Get OS Info</button>
+      </div>
+      <div class="geoInfo">
+        <div class="latitude">
+          <h2>Latitude:</h2>
+          <div id="latOutput"></div>
+        </div>
+        <div class="longitude">
+          <h2>Longitude:</h2>
+          <div id="longOutput"></div>
+        </div>
+        <div class="accuracy">
+          <h2>Accuracy:</h2>
+          <div id="accuOutput"></div>
+        </div>
+        <div class="altitude">
+          <h2>Altitude:</h2>
+          <div id="altiOutput"></div>
+        </div>
+        <button id="getGeoInfo">Get Geo Location</button>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

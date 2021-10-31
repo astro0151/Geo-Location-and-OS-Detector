@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  background-color: bisque;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  /* font-style: italic; */
+  font-variant: small-caps;
+}
+.geoInfo {
+  position: relative;
+  top: 50px;
+  left: 81px;
+}
+.sysInfo {
+  position: relative;
+  top: 20px;
+  left: 262px;
+}
+.os {
+  display: flex;
+  margin: 10px;
+}
+.latitude {
+  display: flex;
+  margin: 10px;
+}
+.longitude {
+  display: flex;
+  margin: 10px;
+}
+.accuracy {
+  display: flex;
+  margin: 10px;
+}
+.altitude {
+  display: flex;
+  margin: 10px;
+}
+#osOutput {
+  margin-left: 10px;
+  margin-top: -5px;
+  padding: 7px;
+  border: 1px solid #a7a2af;
+  width: 250px;
+  font-size: 20px;
+  height: 40px;
+  background: white;
+}
+#latOutput {
+  margin-top: -5px;
+  margin-left: 22px;
+  padding: 7px;
+  border: 1px solid #a7a2af;
+  width: 250px;
+  font-size: 20px;
+  height: 40px;
+  background: white;
+}
+#longOutput {
+  margin-left: 6px;
+  margin-top: -5px;
+  padding: 7px;
+  border: 1px solid #a7a2af;
+  width: 250px;
+  font-size: 20px;
+  height: 40px;
+  background: white;
+}
+#accuOutput {
+  margin-left: 8px;
+  margin-top: -5px;
+  padding: 7px;
+  border: 1px solid #a7a2af;
+  width: 250px;
+  font-size: 20px;
+  height: 40px;
+  background: white;
+}
+#altiOutput {
+  margin-left: 22px;
+  margin-top: -5px;
+  padding: 7px;
+  border: 1px solid #a7a2af;
+  width: 250px;
+  font-size: 20px;
+  height: 40px;
+  background: white;
+}
+#getOsInfo {
+  margin-left: 204px;
+  width: 250px;
+  height: 40px;
+  font-size: large;
+  border: none;
+  color: #742b2b;
+  box-shadow: 10px 10px 5px 0px rgba(207, 186, 186, 0.75);
+  -webkit-box-shadow: 4px 6px 5px 0px rgba(207, 186, 186, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(207, 186, 186, 0.75);
+}
+#getOsInfo:hover {
+  color: green;
+}
+#getGeoInfo:hover {
+  color: green;
+}
+#getGeoInfo {
+  margin-left: 122px;
+  width: 250px;
+  height: 40px;
+  font-size: large;
+  border: none;
+  color: #742b2b;
+  box-shadow: 10px 10px 5px 0px rgba(207, 186, 186, 0.75);
+  -webkit-box-shadow: 4px 6px 5px 0px rgba(207, 186, 186, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(207, 186, 186, 0.75);
+}
